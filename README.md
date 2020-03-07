@@ -19,6 +19,9 @@
 # Actualización de paquetes de R
 (base) $ conda update r-caret
 
+# Instalación de RStudio
+(base) $ conda install -c r rstudio 
+
 # Lista de paquetes instalados
 (base) $ conda list
 
@@ -28,23 +31,17 @@
 
 ## Inicio de R y RStudio
 ```terminal
+# R
+(pdg) $ R
 
-
+# RStudio
+(pdg) $ rstudio
 ```
 
 ## Instalación de GDAL
 GDAL queda disponible con la creación del ambiente, pero la versión del canal conda-forge es más nueva
 ```terminal
-(base) $ conda update conda
-(base) $ conda activate pdg
 (pdg) $ ogrinfo --version # GDAL 2.4.2, released 2019/06/28
 (pdg) $ conda install -c conda-forge gdal
 (pdg) $ ogrinfo --version # GDAL 3.0.4, released 2020/01/28
-```
-
-## Instalación de Anaconda Navigator
-```terminal
-(base) $ conda update conda
-(base) $ conda activate pdg
-(pdg) $ conda install -c anaconda anaconda-navigator
 ```
