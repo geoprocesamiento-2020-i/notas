@@ -1,6 +1,7 @@
 # Notas
 
 ## Inicio de Anaconda Navigator
+Se ejecuta desde el ambiente base
 ```terminal
 (base) $ anaconda-navigator
 ```
