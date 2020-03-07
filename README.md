@@ -5,12 +5,12 @@
 (base) $ anaconda-navigator
 ```
 
-## Creación de un ambiente conda
+## Creación de un ambiente conda con paquetes de R
 ```terminal
 # Lista de ambientes
 (base) $ conda env list
 
-# Creación
+# Creación de ambiente R
 (base) $ conda create -n pdg r-essentials r-base
 
 # Activación
