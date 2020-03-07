@@ -10,20 +10,26 @@
 # Lista de ambientes
 (base) $ conda env list
 
-# Actualización de paquetes de R
-# (base) $ conda update r-caret
-
 # Creación
 (base) $ conda create -n pdg r-essentials r-base
 
 # Activación
 (base) $ conda activate pdg
 
+# Actualización de paquetes de R
+(base) $ conda update r-caret
+
 # Lista de paquetes instalados
 (base) $ conda list
 
 # Desactivación
 (pdg) $ conda deactivate
+```
+
+## Inicio de R y RStudio
+```terminal
+
+
 ```
 
 ## Instalación de GDAL
