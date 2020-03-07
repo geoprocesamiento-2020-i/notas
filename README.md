@@ -10,11 +10,17 @@
 # Lista de ambientes
 (base) $ conda env list
 
+# Actualización de paquetes de R
+# (base) $ conda update r-caret
+
 # Creación
-(base) $ conda create -n pdg
+(base) $ conda create -n pdg r-essentials r-base
 
 # Activación
 (base) $ conda activate pdg
+
+# Lista de paquetes instalados
+(base) $ conda list
 
 # Desactivación
 (pdg) $ conda deactivate
