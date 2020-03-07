@@ -7,6 +7,10 @@
 
 ## Creación de un ambiente conda
 ```terminal
+# Lista de ambientes
+(base) $ conda env list
+
+# Creación
 (base) $ conda create -n pdg
 
 # Activación
@@ -14,8 +18,6 @@
 
 # Desactivación
 (pdg) $ conda deactivate
-
-# Borrado
 ```
 
 ## Instalación de GDAL
