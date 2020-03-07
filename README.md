@@ -21,13 +21,16 @@ Se ejecuta desde el ambiente base
 (base) $ conda update r-caret
 
 # Instalación de RStudio
-(base) $ conda install -c r rstudio 
+(base) $ conda install -c r rstudio
 
 # Lista de paquetes instalados
 (base) $ conda list
 
 # Desactivación
 (pdg) $ conda deactivate
+
+# Borrado
+(base) $ conda env remove --name pdg
 ```
 
 ## Inicio de R y RStudio
