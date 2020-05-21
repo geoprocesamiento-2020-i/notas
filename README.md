@@ -56,5 +56,5 @@ GDAL queda disponible con la creación del ambiente, pero la versión del canal 
 ```r
 cr_cantones %>%
   filter(area < 50 & (provincia == "Heredia" | provincia == "Cartago")) %>%
-  select(canton, area, province)
+  select(canton, area, provincia)
 ```
