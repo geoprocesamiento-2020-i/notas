@@ -52,7 +52,7 @@ GDAL queda disponible con la creación del ambiente, pero la versión del canal 
 
 ## Soluciones a los ejercicios
 ### Datos vectoriales - operaciones con atributos
-
+1. Mediante _pipes_, encadene un conjunto de funciones del paquete ```dplyr``` para desplegar el nombre, el área y la provincia de los cantones cuya área sea menor a 50 km2 y que se ubiquen en las provincias de Heredia o de Cartago.
 ```r
 cr_cantones %>%
   filter(area < 50 & (provincia == "Heredia" | provincia == "Cartago")) %>%
