@@ -49,3 +49,12 @@ GDAL queda disponible con la creación del ambiente, pero la versión del canal 
 (pdg) $ conda install -c conda-forge gdal
 (pdg) $ ogrinfo --version # GDAL 3.0.4, released 2020/01/28
 ```
+
+## Soluciones a los ejercicios
+### Datos vectoriales - operaciones con atributos
+
+```r
+cr_cantones %>%
+  filter(area < 50 & (provincia == "Heredia" | provincia == "Cartago")) %>%
+  select(canton, area, province)
+```
