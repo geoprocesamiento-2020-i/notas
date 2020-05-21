@@ -58,3 +58,14 @@ cr_cantones %>%
   filter(area < 50 & (provincia == "Heredia" | provincia == "Cartago")) %>%
   select(canton, area, provincia)
 ```
+
+2. Repita el ejercicio anterior, utilizando funciones anidadas.
+```r
+select(
+  filter(
+    cr_cantones,
+    area < 50 & (provincia == "Heredia" | provincia == "Cartago")
+  )
+  canton, area, provincia
+)
+```
