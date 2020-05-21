@@ -65,7 +65,7 @@ select(
   filter(
     cr_cantones,
     area < 50 & (provincia == "Heredia" | provincia == "Cartago")
-  )
+  ),
   canton, area, provincia
 )
 ```
